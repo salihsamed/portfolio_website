@@ -114,7 +114,7 @@ const Home = () => {
                 </div>
             </div>
             
-            <p className='text-center mt-5'>İskenderun Teknik Üniversitesi Elektrik-Elektronik Mühendisliği'nden 2023 mezun oldum.<br/>Yazılıma olan ilgimle beraber üniversite yıllarında kendimi geliştirdim.<br/>Üniversitemin son dönemimde Çukurova Teknokent'de bulunan <a href="https://www.2adam.com.tr/" target='_blank' className='underline text-blue-600 hover:text-blue-800 visited:text-blue-800'>2 Adam Yazılım ve Teknoloji</a> firmasında Full-Stack Developer olarak stajımı yaptım.<br/>Staj boyunca bir fiil şirketinin geliştirdiği yazılım projesinde rol aldım.<br/>Bunun yanı sıra farklı teknolojiler kullarak birçok proje geliştirdim.</p>
+            <p className='text-center mt-5'>İskenderun Teknik Üniversitesi Elektrik-Elektronik Mühendisliği'nden 2023 yılında mezun oldum.<br/>Yazılıma olan ilgimle beraber üniversite yıllarında kendimi geliştirdim.<br/>Üniversitemin son dönemimde Çukurova Teknokent'de bulunan <a href="https://www.2adam.com.tr/" target='_blank' className='underline text-blue-600 hover:text-blue-800 visited:text-blue-800'>2 Adam Yazılım ve Teknoloji</a> firmasında Full-Stack Developer olarak stajımı yaptım.<br/>Staj boyunca bir fiil şirketinin geliştirdiği yazılım projesinde rol aldım.<br/>Bunun yanı sıra farklı teknolojiler kullarak birçok proje geliştirdim.</p>
             <h2 className='text-xl mt-5 font-semibold mb-2'>Yetenekler</h2>
             <div className='flex gap-3 mt-2'>
                 {abilities.map((a,index)=>(<Ability key={index} image={a.image} text={a.text}/>))}
