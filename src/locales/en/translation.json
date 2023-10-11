@@ -1,0 +1,27 @@
+{
+  "translation": {
+    "Navbar_1":"About",
+    "Navbar_2":"Talents",
+    "Navbar_3":"Projects",
+    "Navbar_4":"Contact",
+    "Home_p1": "Hello,",
+    "Home_p2":"I am Salih Samed Avşar.",
+    "About_p1":"I was born in Adana in 1999.I graduated Iskenderun Technical University Electrical and Electronics Engineering in 2023.",
+    "About_p2":"I improved myself during my university years along with my interest in software.",
+    "About_p3":"During my last semester at university, I did my internship as a Full-Stack Developer at ",
+    "About_p4":"2 Adam Software ve Technology ",
+    "About_p5":"company in Çukurova Technocity.",
+    "About_p6":"During my internship, I took part in a software project developed by a verb company. In addition, I developed many projects using different technologies.",
+    "Hakkimda":"About",
+    "Yetenekler":"Talents",
+    "Iletisim":"Contact",
+    "Projeler":"Projects",
+    "Project_1_name":"E-Commerce Website",
+    "Project_2_name":"Food Recipe Website",
+    "Project_3_name":"Social Media Website",
+    "Site_baglantisi":"Website Link",
+    "Github_baglantisi":"Github Link",
+    "Proje":"Project",
+    "Kullanilan":"Technologies and tools used"  
+  }
+}

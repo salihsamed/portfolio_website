@@ -1,0 +1,28 @@
+{
+    "translation": {
+      "Navbar_1":"Hakkımda",
+      "Navbar_2":"Yetenekler",
+      "Navbar_3":"Projeler",
+      "Navbar_4":"İletişim",
+      "Home_p1": "Merhaba",
+      "Home_p2":"Ben Salih Samed Avşar.",
+      "About_p1":"1999'da Adana'da doğdum.İskenderun Teknik Üniversitesi Elektrik-Elektronik Mühendisliği'nden 2023 yılında mezun oldum.",
+      "About_p2":"Yazılıma olan ilgimle beraber üniversite yıllarında kendimi geliştirdim.",
+      "About_p3":"Üniversitemin son dönemimde Çukurova Teknokent'de bulunan ",
+      "About_p4":"2 Adam Yazılım ve Teknoloji ",
+      "About_p5":"firmasında Full-Stack Developer olarak stajımı yaptım.",
+      "About_p6":"Staj boyunca bir fiil şirketinin geliştirdiği yazılım projesinde rol aldım. Bunun yanı sıra farklı teknolojiler kullarak birçok proje geliştirdim.",
+      "Hakkimda":"Hakkımda",
+      "Yetenekler":"Yetenekler",
+      "Iletisim":"İletişim",
+      "Projeler":"Projeler",
+      "Project_1_name":"E-Ticaret Sitesi",
+      "Project_2_name":"Yemek Tarifi Sitesi",
+      "Project_3_name":"Sosyal Medya Sitesi",
+      "Site_baglantisi":"Site bağlantısı",
+      "Github_baglantisi":"Github Bağlantısı",
+      "Proje":"Proje",
+      "Kullanilan":"Kullanılan teknolojiler ve araçlar"
+
+    }
+}
