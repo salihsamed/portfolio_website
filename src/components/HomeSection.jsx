@@ -14,7 +14,7 @@ const HomeSection = () => {
 
     const scrollToSecondPage = () =>{
 
-        window.scrollTo(0,window.innerHeight)
+        window.scrollTo(0,document.documentElement.clientHeight)
     }
 
   return (
