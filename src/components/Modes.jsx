@@ -14,8 +14,8 @@ const Modes = () => {
 
 
   return (  
-    <div className='absolute left-0 top-0 flex p-3 gap-3 cursor-pointer z-10 items-center'>
-        {currentLanguage==="tr"?<div onClick={()=>changeLanguage("en")}>English</div>:<div onClick={()=>changeLanguage("tr")}>Türkçe</div>}
+    <div className='absolute left-2 top-2 flex p-3 gap-3 cursor-pointer z-10 items-center'>
+        {currentLanguage==="tr" || currentLanguage===null?<div onClick={()=>changeLanguage("en")}>English</div>:<div onClick={()=>changeLanguage("tr")}>Türkçe</div>}
     </div>  
   )
 }

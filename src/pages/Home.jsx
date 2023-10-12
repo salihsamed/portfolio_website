@@ -9,7 +9,7 @@ import ContactSection from '../components/ContactSection';
 const Home = () => {
 
   return (
-        <div className='flex flex-col justify-center items-center text-gray-100'>
+        <div className='text-gray-100'>
             <HomeSection/>
             <AboutSection/>
             <AbilitySection/>
