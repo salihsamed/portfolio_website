@@ -65,9 +65,9 @@ const Navbar = () => {
 
       <div className={`flex gap-3 items-center max-md:absolute top-0 left-0  max-lg:opacity-95 max-md:w-full max-md:flex-col max-md:justify-center max-sm:gap-10 max-md:h-screen max-md:transition-all ${switchIcon?"max-lg:bg-black":"max-md:translate-x-[100%]"}`}>
         <div className={`cursor-pointer ${highlight===0?"text-orange-500":""}`} onClick={()=>moveToward(0)}><AiFillHome className='text-xl max-sm:text-3xl'/></div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===1?"text-orange-500":""}`} onClick={()=>moveToward(document.documentElement.clientHeight)}>{t("Navbar_1")}</div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===2?"text-orange-500":""}`} onClick={()=>moveToward(2*document.documentElement.clientHeight)}>{t("Navbar_2")}</div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===3?"text-orange-500":""}`} onClick={()=>moveToward(3*document.documentElement.clientHeight)}>{t("Navbar_3")}</div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===1?"text-orange-500":""}`} onClick={()=>moveToward(window.outerHeight)}>{t("Navbar_1")}</div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===2?"text-orange-500":""}`} onClick={()=>moveToward(2*window.outerHeight)}>{t("Navbar_2")}</div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===3?"text-orange-500":""}`} onClick={()=>moveToward(3*window.outerHeight)}>{t("Navbar_3")}</div>
         <div className={`cursor-pointer max-sm:text-3xl ${highlight===4?"text-orange-500":""}`} onClick={()=>moveToward(document.body.scrollHeight)}>{t("Navbar_4")}</div>
       </div>
 
