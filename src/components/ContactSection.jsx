@@ -6,7 +6,7 @@ const ContactSection = () => {
     
     const{t}=useTranslation();
   return (
-    <div className='h-screen max-sm:h-[50svh] w-full px-20 max-xl:px-0'>
+    <div className='h-screen max-sm:h-[50vh] w-full px-20 max-xl:px-0'>
         <div className='h-[6rem] text-[4rem] max-sm:text-[3rem] max-sm:text-center max-xl:px-20'>{t("Iletisim")}</div>
         <div className='h-[calc(100vh-6rem)] max-sm:h-auto flex flex-col md:justify-center max-sm:mt-20 items-center'>
             <div className='flex items-center max-sm:justify-center gap-5 max-sm:gap-0 w-[50%] max-xl:w-[90%]'>

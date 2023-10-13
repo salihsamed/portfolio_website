@@ -37,7 +37,7 @@ const ProjectSection = () => {
 
 
   return (
-    <div className='h-screen max-sm:h-[100svh] max-xl:h-auto w-full max-sm:mb-20 px-20 max-sm:px-2'>
+    <div className='h-screen max-xl:h-auto w-full max-sm:mb-20 px-20 max-sm:px-2'>
         <div className='text-[4rem] max-sm:text-center max-sm:text-[3rem]'>{t("Projeler")}</div>
         <div className='grid grid-cols-3 max-xl:grid-cols-1 gap-20 max-lg:gap-10 max-sm:gap-3 mt-24 max-xl:mb-48 max-sm:mt-2'>
           {projects.map((p,index)=>(<Project key={index} projectName={p.projectName} techs={p.techs} linkName={p.linkName}  image={p.image} siteLink={p.siteLink} githubLink={p.githubLink} githubLink2={p.githubLink2}/>))}
