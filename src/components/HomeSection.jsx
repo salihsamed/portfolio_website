@@ -18,7 +18,7 @@ const HomeSection = () => {
     }
 
   return (
-    <div className='h-screen w-full px-20 max-lg:px-0 max-xl:px-3 flex flex-col justify-center items-center relative'>
+    <div className='h-screen mobileFix w-full px-20 max-lg:px-0 max-xl:px-3 flex flex-col justify-center items-center relative'>
         <div className='w-[70%] max-lg:w-[90%] flex flex-col justify-center'>
             <p className='text-orange-500 text-[5rem] max-sm:text-3xl max-lg:text-center'>{t("Home_p1")}</p>
             <p className='text-[6rem] max-lg:text-[2rem] max-lg:text-center'>{t("Home_p2")}</p>
