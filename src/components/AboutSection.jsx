@@ -8,7 +8,7 @@ const AboutSection = () => {
 
     const moveToward = (position)=>{
 
-        window.scrollTo(0,position);
+        document.getElementById(position).scrollIntoView({block:"start"});
     
     }
 
@@ -23,8 +23,8 @@ const AboutSection = () => {
             <div className='flex flex-col'>
                 <p className='lg:leading-10 max-sm:text-xs max-lg:text-xl text-center px-1'>{t("About_p1")}<br/>{t("About_p2")}<br/>{t("About_p3")}<a href="https://www.2adam.com.tr/" target='_blank' rel='noreferrer' className='underline text-orange-500 hover:text-orange-300 visited:text-orange-500'>{t("About_p4")}</a>{t("About_p5")}<br/>{t("About_p6")}</p>
                 <div className='flex lg:gap-5 lg:mt-7 max-lg:mt-5 max-sm:mt-5 max-sm:gap-2 max-lg:gap-5 max-lg:justify-center'>
-                    <button className='border border-orange-500 rounded-lg text-white lg:text-[2rem] max-lg:text-[2rem] max-sm:text-[1.5rem]  first-letter: px-2 hover:border-orange-300' onClick={()=>moveToward(window.innerHeight*2)}>{t("Yetenekler")}</button>
-                    <button className='border border-orange-500 rounded-lg text-white lg:text-[2rem] max-lg:text-[2rem] max-sm:text-[1.5rem] first-letter: px-2 hover:border-orange-300' onClick={()=>moveToward(window.innerHeight*3)}>{t("Projeler")}</button>
+                    <button className='border border-orange-500 rounded-lg text-white lg:text-[2rem] max-lg:text-[2rem] max-sm:text-[1.5rem]  first-letter: px-2 hover:border-orange-300' onClick={()=>moveToward("ability")}>{t("Yetenekler")}</button>
+                    <button className='border border-orange-500 rounded-lg text-white lg:text-[2rem] max-lg:text-[2rem] max-sm:text-[1.5rem] first-letter: px-2 hover:border-orange-300' onClick={()=>moveToward("project")}>{t("Projeler")}</button>
                 </div>
             </div>
         </div>
