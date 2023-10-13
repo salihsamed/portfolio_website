@@ -13,7 +13,7 @@ const AboutSection = () => {
     }
 
   return (
-    <div className='h-screen mobileFix w-full px-20 max-lg:px-0 flex flex-col gap-56 max-lg:gap-0'>
+    <div className='h-screen max-sm:h-[100dvh] w-full px-20 max-lg:px-0 flex flex-col gap-56 max-lg:gap-0'>
         <div className='text-[4rem] max-sm:text-[3rem] max-lg:text-center max-lg:py-2 max-lg:w-full'>{t("Hakkimda")}</div>
         <div className='flex gap-20 max-lg:flex-col max-lg:gap-0'>
             <div className='flex flex-col items-center'>

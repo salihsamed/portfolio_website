@@ -27,8 +27,4 @@ body {
  
 }
 
-.mobileFix{
-    min-height: fill-available;
-    min-height: -webkit-fill-available;
-}
 
