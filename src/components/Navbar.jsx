@@ -12,9 +12,33 @@ const Navbar = () => {
 
   const {t} = useTranslation();
 
-  const moveToward = (position)=>{
+  const moveToward = (inp)=>{
 
-    window.scrollTo(0,position);
+    var doc;
+
+    switch (inp) {
+      case 1:
+        doc=document.getElementById("home");
+        break;
+      case 2:
+        doc=document.getElementById("about");
+        break;
+      case 3:
+        doc=document.getElementById("ability");
+        break;
+      case 4:
+        doc=document.getElementById("project");
+        break;
+      case 5:
+        doc=document.getElementById("contact");
+        break;
+      default:
+        break;
+    }
+
+    doc.scrollIntoView({block:"start"})
+
+    // window.scrollTo(0,position);
     if(window.innerWidth<768){
       setSwitchIcon(false);
     }
@@ -64,11 +88,11 @@ const Navbar = () => {
     <div className={`text-gray-50 flex gap-3 justify-end p-3 fixed w-full top-0 items-center h-[7vh] ${switchIcon?"z-20":""} z-10`}>
 
       <div className={`flex gap-3 items-center max-md:absolute top-0 left-0  max-lg:opacity-95 max-md:w-full max-md:flex-col max-md:justify-center max-sm:gap-10 max-md:h-screen max-md:transition-all ${switchIcon?"max-lg:bg-black":"max-md:translate-x-[100%]"}`}>
-        <div className={`cursor-pointer ${highlight===0?"text-orange-500":""}`} onClick={()=>moveToward(0)}><AiFillHome className='text-xl max-sm:text-3xl'/></div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===1?"text-orange-500":""}`} onClick={()=>moveToward(window.innerHeight)}>{t("Navbar_1")}</div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===2?"text-orange-500":""}`} onClick={()=>moveToward(2*window.innerHeight)}>{t("Navbar_2")}</div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===3?"text-orange-500":""}`} onClick={()=>moveToward(3*window.innerHeight)}>{t("Navbar_3")}</div>
-        <div className={`cursor-pointer max-sm:text-3xl ${highlight===4?"text-orange-500":""}`} onClick={()=>moveToward(document.body.scrollHeight)}>{t("Navbar_4")}</div>
+        <div className={`cursor-pointer ${highlight===0?"text-orange-500":""}`} onClick={()=>moveToward(1)}><AiFillHome className='text-xl max-sm:text-3xl'/></div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===1?"text-orange-500":""}`} onClick={()=>moveToward(2)}>{t("Navbar_1")}</div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===2?"text-orange-500":""}`} onClick={()=>moveToward(3)}>{t("Navbar_2")}</div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===3?"text-orange-500":""}`} onClick={()=>moveToward(4)}>{t("Navbar_3")}</div>
+        <div className={`cursor-pointer max-sm:text-3xl ${highlight===4?"text-orange-500":""}`} onClick={()=>moveToward(5)}>{t("Navbar_4")}</div>
       </div>
 
       <IoReorderThree className={`absolute right-2  top-2 text-3xl md:hidden ${switchIcon?"hidden":""}`} onClick={()=>setSwitchIcon(true)}/>
