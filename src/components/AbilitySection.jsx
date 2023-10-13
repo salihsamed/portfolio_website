@@ -56,7 +56,7 @@ const AbilitySection = () => {
     ]
 
   return (
-    <div className='h-screen w-full px-20 max-lg:px-2'>
+    <div className='h-screen max-sm:h-[100dvh] w-full px-20 max-lg:px-2'>
         <div className='text-[4rem] max-sm:text-[3rem] max-lg:text-center'>{t("Yetenekler")}</div>
         <div className='grid grid-cols-5 max-lg:grid-cols-3 max-2xl:grid-cols-4 mt-2 gap-10 max-sm:gap-2 max-sm:mt-10'>
             {abilities.map((a,index)=>(<Ability key={index} image={a.image} text={a.text}/>))}
