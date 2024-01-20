@@ -4,11 +4,10 @@
 
 html {
   scroll-behavior: smooth;
-  
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: black;
 }
 
@@ -18,20 +17,16 @@ body {
   filter: blur(5px);
 }
 
-
-@media screen and (max-width:1023px) {
-
-    .Typewriter{
-      text-align: center;
-
-    }
-  
+@media screen and (max-width: 1023px) {
+  .Typewriter {
+    text-align: center;
+  }
 }
-  
 
-.App{
+.App {
   overflow-x: hidden;
- 
 }
 
-
+.highlight {
+  color: #f97316;
+}

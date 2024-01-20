@@ -40,12 +40,12 @@ const ProjectSection = () => {
   return (
     <div
       id="project"
-      className="h-screen max-xl:h-auto w-full max-sm:mb-20 px-20 max-sm:px-2"
+      className="min-h-screen w-full px-20 max-sm:px-2 page-section"
     >
-      <div className="text-[4rem] max-sm:text-center max-sm:text-[3rem]">
+      <div className="text-[4rem] max-sm:text-[3rem] max-lg:text-center max-lg:py-2 max-lg:w-full mb-2">
         {t("Projeler")}
       </div>
-      <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-20 max-lg:gap-10 max-sm:gap-3 mt-24 max-xl:mb-48 max-sm:mt-2">
+      <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-20 max-lg:gap-10 max-sm:gap-3">
         {projects.map((p, index) => (
           <Project
             key={index}
