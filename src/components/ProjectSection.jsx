@@ -40,7 +40,7 @@ const ProjectSection = () => {
   return (
     <div
       id="project"
-      className="min-h-screen w-full px-20 max-sm:px-2 page-section"
+      className="min-h-screen w-full px-20 max-sm:px-2 page-section max-sm:mb-4"
     >
       <div className="text-[4rem] max-sm:text-[3rem] max-lg:text-center max-lg:py-2 max-lg:w-full mb-2">
         {t("Projeler")}

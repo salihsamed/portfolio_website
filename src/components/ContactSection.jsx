@@ -19,7 +19,7 @@ const ContactSection = () => {
         </div>
         <div className="flex items-center justify-between  max-sm:gap-1 xl:w-[70%] max-xl:w-[95%]">
           <AiOutlineMail className="text-[4rem] max-lg:text-[3rem] max-sm:text-3xl" />
-          <p className="text-[3rem] max-sm:text-base max-lg:text-[2.5rem]">
+          <p className="text-[3rem] max-md:text-lg max-sm:text-base max-lg:text-[2.5rem]">
             salihsamedavsar@gmail.com
           </p>
         </div>

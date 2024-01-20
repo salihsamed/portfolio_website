@@ -12,7 +12,7 @@ const AboutSection = () => {
   return (
     <div
       id="about"
-      className="min-h-screen w-full px-20 max-lg:px-0 flex flex-col xl:gap-56 lg:gap-36 max-lg:gap-10 max-sm:gap-0 page-section"
+      className="min-h-screen w-full px-20 max-lg:px-0 flex flex-col xl:gap-56 lg:gap-36 max-lg:gap-10 max-sm:gap-0 page-section max-sm:mb-4"
     >
       <div className="text-[4rem] max-sm:text-[3rem] max-lg:text-center max-lg:py-2 max-lg:w-full mb-2">
         {t("Hakkimda")}
